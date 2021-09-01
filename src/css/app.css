@@ -1,0 +1,582 @@
+/* app global css */
+
+body {
+    background-color: #FAF0E6;
+    margin: 0px;
+}
+
+.card-time {
+    background-color: #FAF0E6;
+}
+
+.main-head-background {
+    width: 1300px;
+    height: 120px;
+}
+
+.main-head {
+    height: 500px;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.main-bottom {
+    background-position: center bottom, center bottom;
+    background-repeat: no-repeat, repeat;
+    background-size: 800px auto, auto;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+#text-search {
+    margin-bottom: 10px;
+}
+
+#invite-by-filter {
+    margin-bottom: 10px;
+}
+
+.card-header .first-col {
+    margin-bottom: 10px;
+}
+
+.couple-name-container {
+    padding: 110px 0;
+}
+
+.couple-name h1 {
+    font-family: 'Tangerine', cursive;
+    /*font-family: 'Berkshire Swash', cursive;*/
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    text-transform: uppercase;
+    -webkit-letter-spacing: 5px;
+    -moz-letter-spacing: 5px;
+    -ms-letter-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 24px;
+    color: #1f221d;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .couple-name h1 {
+        font-size: 42px;
+    }
+    .iframe-video {
+        height: 600px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .iframe-video {
+        height: 400px;
+    }
+}
+
+.couple-separator {
+    text-transform: uppercase;
+    font-family: "Adobe Garamond Pro Regular";
+    text-align: center;
+    line-height: 1.6;
+    color: #1f221d;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.td-label {
+    font-weight: bold;
+    width: 160px;
+    text-align: right;
+}
+
+.message-sender-label {
+    display: block;
+}
+
+.vide-container {
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.celebrate__text-date-container,
+.wedding__gift-section {
+    text-align: center;
+}
+
+.celebrate__text-container {
+    margin-bottom: 10px;
+}
+
+.celebrate__text,
+.guest__attendance-form-title>h3 {
+    font-family: "Adobe Garamond Pro Italic";
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.4;
+    -webkit-letter-spacing: 4px;
+    -moz-letter-spacing: 4px;
+    -ms-letter-spacing: 4px;
+    letter-spacing: 4px;
+    font-size: 24px;
+    color: #1f221d;
+    margin: 0;
+}
+
+.weding__gift-title {
+    font-family: "Adobe Garamond Pro Italic";
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.4;
+    -webkit-letter-spacing: 4px;
+    -moz-letter-spacing: 4px;
+    -ms-letter-spacing: 4px;
+    letter-spacing: 4px;
+    font-size: 24px;
+    color: #1f221d;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.wedding__gift-section {
+    background: #FFFAF0;
+    padding: 20px;
+}
+
+.weding__gift-subtitle {
+    font-size: 15px;
+}
+
+.celebrate__date {
+    font-family: "Adobe Garamond Pro Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    text-transform: uppercase;
+    -webkit-letter-spacing: 5px;
+    -moz-letter-spacing: 5px;
+    -ms-letter-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 21.6px;
+    color: #1f221d;
+}
+
+.akad-text {
+    font-family: "Adobe Garamond Pro Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    text-transform: uppercase;
+    -webkit-letter-spacing: 5px;
+    -moz-letter-spacing: 5px;
+    -ms-letter-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    color: #1f221d;
+}
+
+.celebrate__location {
+    font-family: "Adobe Garamond Pro Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    -webkit-letter-spacing: 5px;
+    -moz-letter-spacing: 5px;
+    -ms-letter-spacing: 5px;
+    /* letter-spacing: 3px; */
+    color: #1f221d;
+    font-size: 15px;
+}
+
+.celebrate__icon-container {
+    margin-bottom: 20px;
+}
+
+.celebrate__icon {
+    display: inline-block;
+    text-indent: -10000px;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.intro__text {
+    font-family: "Adobe Garamond Pro Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    text-transform: none;
+    -webkit-letter-spacing: normal;
+    -moz-letter-spacing: normal;
+    -ms-letter-spacing: normal;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #1f221d;
+}
+
+.footer-container {
+    margin-top: 20px;
+    font-family: "Adobe Garamond Pro Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    text-align: center;
+}
+
+.footer__text {
+    border-top: 1px solid;
+    font-size: 14px;
+}
+
+.footer__text span {
+    line-height: 34px;
+}
+
+.location__button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #EE82EE;
+    color: white;
+    border-radius: 3px;
+}
+
+#input-data-again {
+    display: none;
+}
+
+.sent-marker {
+    background-color: #EE82EE;
+}
+
+.sent-marker:hover {
+    background-color: #EE82EE !important;
+}
+
+#mark-message {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.message__status-text {
+    padding: 5px;
+    width: 90px;
+}
+
+.celebrate__count-down {
+    font-family: "Adobe Garamond Pro Regular";
+    margin-top: 20px;
+}
+
+.border-right {
+    border-right: solid 1px;
+}
+
+.time-box {
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+}
+
+.time-box .number {
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.time-box .label {
+    margin-bottom: 0px;
+}
+
+#guest__message:focus {
+    border: 1px solid #3367c1;
+    box-shadow: none;
+    outline: 0;
+}
+
+.form-row {
+    margin-bottom: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.guest__attendance-section {
+    margin-top: 20px;
+}
+
+.guest-name-message-list {
+    font-weight: bold;
+}
+
+.message-replay-list {
+    padding-left: 18px;
+}
+
+.guest__attendance-form-container {
+    margin: auto;
+    max-width: 700px;
+}
+
+.guest__attendance-form-title {
+    text-align: center;
+}
+
+.guest__attendance-form {
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+
+.guest__attendance-form form {
+    margin-bottom: 0px;
+}
+
+#guest__attendance,
+#guest__message,
+#guest__attendance-name {
+    width: 100%;
+    border-radius: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#guest__attendance-form-submit {
+    width: 100%;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #EE82EE;
+    color: white;
+    height: 33px;
+}
+
+#guest__attendance-form-submit:focus,
+#enable-notification-button:focus,
+#wedding__gtift-button:focus {
+    outline: 0px;
+}
+
+#guest__attendance-form-submit:hover,
+.location__button:hover,
+#enable-notification-button:hover,
+#wedding__gtift-button:hover {
+    background-color: #000000;
+}
+
+#guest__attendance-form-submit:disabled {
+    opacity: 0.5;
+}
+
+#guest__attendance,
+#guest__attendance-name {
+    height: 30px;
+}
+
+#guest__attendance:focus,
+#guest__attendance-name:focus {
+    border: 1px solid #3367c1;
+    outline: 0;
+}
+
+.guest__attendance-form-title {
+    margin-bottom: 15px;
+}
+
+#filter-by-attend-status {
+    margin: 5px;
+    list-style-type: none;
+    padding-left: 0px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.filter-attend-item {
+    display: inline-block;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid #bdc2c7;
+    color: #37474f;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.filter-attend-item.active {
+    background-color: #37474f2e;
+    font-weight: bold;
+}
+
+.guest-table {
+    font-size: 15px;
+}
+
+.celebrate__time {
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: "Adobe Garamond Pro Regular";
+    font-size: 15px;
+}
+
+.celebrate__time-text {
+    font-weight: bold;
+}
+
+.celebrate__time td {
+    padding: 3px;
+}
+
+.table-container .card-body {
+    overflow-y: auto;
+}
+
+.guest-table th {
+    position: sticky;
+    top: -21px;
+}
+
+.guest-table .float-mode {
+    background: white;
+    box-shadow: 0 2px 2px -3px;
+}
+
+.enable-notification-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#enable-notification-button,
+#wedding__gtift-button {
+    border: 0px;
+    background-color: #EE82EE;
+    color: white;
+    height: 33px;
+    width: 182px;
+}
+
+.location__icon {
+    height: 20px;
+    margin-bottom: 0px;
+}
+
+.wedding__gift-icon {
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.name_icon {
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.gift-text {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.gift-text-address {
+    font-size: 13px;
+}
+
+@media (max-width: 765px) {
+    .detail__table td {
+        padding: 8px;
+        font-size: 13px;
+    }
+    .td-label {
+        width: 100px;
+    }
+    .count__down-time-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        row-gap: 10px;
+    }
+    .second-row-action {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 463px) {
+    #mark-message {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    #text-search {
+        margin-bottom: 0px;
+    }
+    .card-header .first-col {
+        margin-bottom: 0px;
+    }
+    .celebrate__location {
+        font-size: 18px;
+    }
+    .button-actions-wapper {
+        float: right;
+    }
+    label[for="not-use-wa-formater"] {
+        margin-bottom: 0px;
+        margin-top: 6px;
+    }
+    #mark-message {
+        margin-left: 5px;
+    }
+    .border-right-md {
+        border-right: solid 1px #dee2e6;
+    }
+    .time-box {
+        width: 200px;
+    }
+    .hr-section {
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 992px) {
+    .couple-name h1 {
+        font-size: 48px;
+    }
+    .celebrate__date {
+        font-size: 32px;
+    }
+    .footer-container {
+        margin-top: 30px;
+    }
+}
+
+.lingkaran_dalam {
+    margin-left: 4px;
+    bottom: 0px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: #FAF0E6
+}
+
+#Address-button {
+    border: 0px;
+    background-color: #000000;
+    color: white;
+    height: 33px;
+    width: 80px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
